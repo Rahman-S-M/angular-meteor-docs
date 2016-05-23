@@ -43,7 +43,7 @@ In the previous section we rendered a list of user emails. In Meteor's [accounts
 
 For that purpose we could create a private component method and call it each time in the template to get the right display name, i.e., username or email. Instead, we'll implement a special pipe that handles this, at the same time, we'll learn how to create stateless pipes. One of the advantages of this approach in comparison to class methods is that we can use the same pipe in any component. You are likely familiar with Angular 2 pipes if you read the previous step. If not — you are welcome to know more about them [here](https://angular.io/docs/ts/latest/guide/pipes.html).
 
-Let's add a new folder "client/lib" and place a new file `pipes.ts`. We'll add our new `displayName` pipe inside of it:
+Let's add a new folder "client/imports/pipes" and place a new file `pipes.ts`. We'll add our new `displayName` pipe inside of it:
 
 {{> DiffBox tutorialName="meteor-angular2-socially" step="13.6"}}
 
