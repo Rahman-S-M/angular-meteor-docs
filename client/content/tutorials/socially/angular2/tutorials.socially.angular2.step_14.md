@@ -137,7 +137,7 @@ This is a perfect use case to add a new stateful pipe, which takes as
 an input a party and a one of the RSVP responses, and calculates the total number of responses
 associated with this, provided as a parameter we'll call "response".
 
-Add a new pipe to the `lib/pipes.ts` as follows:
+Add a new pipe to the `client/imports/pipes/pipes.ts` as follows:
 
 {{> DiffBox tutorialName="meteor-angular2-socially" step="14.13"}}
 
